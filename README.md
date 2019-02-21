@@ -1,4 +1,6 @@
 # Manjaro-config
+Openbox//plank//lemonbar//obmenu-generator
+
 my personal manjaro config 2019
 spesial thanks to https://github.com/fikriomar16
 
