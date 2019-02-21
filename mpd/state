@@ -1,0 +1,37 @@
+sw_volume: 34
+audio_device_state:1:Pulse Output
+audio_device_state:1:my_fifo
+state: play
+current: 14
+time: 4.245000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 5
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:01 WALI BAND Takkan Pisah.mp3
+1:02 WALI BAND Salam 5 Waktu.mp3
+2:03 WALI BAND Doain Ya Penonton.mp3
+3:04 WALI BAND Ngantri Ke Sorga.mp3
+4:ADFAITA - COVER BY SABYAN FT HABIBAH-MjWXqMdD1ZI.mkv
+5:ATOUNA EL TOUFOULE Cover by SABYAN.mp4
+6:DEEN ASSALAM - Cover by SABYAN.mp4
+7:DENGARKAN TIUPAN SULING INI RASANYA SEPERTI DI HIPNOTIS - Bimbang instrumental Suling-gvca3DncUxg.webm
+8:LAA ILAAHA ILLALLAH - ft ESBEYE-p3p2ecM_V1o.mkv
+9:LAW KANA BAINANAL HABIB (cover by Anisa Rahman)-W5OcxPOrQtU.webm
+10:NOAH - Cinta Bukan Dusta (Official Video)-RVdK3RB7WWE.webm
+11:NOAH - Suara Pikiranku (Official Video)-y8ZBXta0Sss.mkv
+12:NOAH Full album pilihan terbaik 2018 New version-9fl4Yq3xVvE.mkv
+13:NOAH Jalani Mimpi.mp4
+14:Noah Tak Lagi Sama.mp4
+15:NOAH terbaru Perlahan Pudar.mp4
+16:SHOLAWAT ASYGHIL - Nissa ft Fadli Habibi-asG1A6xi5b8.webm
+17:YA ASYIQOL VERSI SABYAN.mp4
+18:YA HABIBAL QOLBI versi SABYAN.mp4
+19:YA JAMALU Versi SABYAN ( feat Annisa & El - Alice ).mp4
+20:YA MAULANA - SABYAN.mp4
+21:제이플라 2018 - J Fla - The Best Cover Songs 2017 - 2018.mp4
+playlist_end

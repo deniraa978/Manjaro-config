@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://openbox.org/">
+  <menu id="root-menu" label="Applications">
+    <item label="File Manager" icon="/home/maman/.config/obmenu-generator/icons/af8d408ceedbd3851e418e6c8c37a0bc.png"><action name="Execute"><command><![CDATA[xdg-open .]]></command></action></item>
+    <item label="Terminal" icon="/home/maman/.config/obmenu-generator/icons/bfd44217aa16fcfc1b41df495b21c181.png"><action name="Execute"><command><![CDATA[xterm]]></command></action></item>
+    <item label="Web Browser" icon="/home/maman/.config/obmenu-generator/icons/66492fc1f65db39c94569bed9aa10880.png"><action name="Execute"><command><![CDATA[xdg-open http://]]></command></action></item>
+    <item label="Run command" icon="/home/maman/.config/obmenu-generator/icons/40e856f9bf28b5971c4062d80cb8e2d2.png"><action name="Execute"><command><![CDATA[gmrun]]></command></action></item>
+  <separator label="Categories"/>
+  <menu id="0.0807801360069824" icon="/home/maman/.config/obmenu-generator/icons/22287fed02145a38d5aaa4273cc634b7.png" label="Accessories">
+    <item label="About Xfce" icon="/home/maman/.config/obmenu-generator/icons/0628eec3f3452dce78d1dfc2128a0997.png"><action name="Execute"><command><![CDATA[xfce4-about]]></command></action></item>
+    <item label="Application Finder" icon="/home/maman/.config/obmenu-generator/icons/470bbcfce40c65ef07863b11bc1768eb.png"><action name="Execute"><command><![CDATA[xfce4-appfinder]]></command></action></item>
+    <item label="Archive Manager" icon="/home/maman/.config/obmenu-generator/icons/db046d48eb6188fe3b66d4c5f093642a.png"><action name="Execute"><command><![CDATA[file-roller]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/maman/.config/obmenu-generator/icons/1d7655bcfc9458df2d60a1fbc5bedbe8.png"><action name="Execute"><command><![CDATA[/usr/lib/Thunar/ThunarBulkRename]]></command></action></item>
+    <item label="Catfish File Search" icon="/home/maman/.config/obmenu-generator/icons/2923bdd49d7711bd202aadc10a38cd11.png"><action name="Execute"><command><![CDATA[/usr/bin/catfish]]></command></action></item>
+    <item label="Characters" icon="/home/maman/.config/obmenu-generator/icons/e614630ff1c4c26ca42f4e73b99b9d9c.png"><action name="Execute"><command><![CDATA[/usr/bin/gnome-characters]]></command></action></item>
+    <item label="Clipman" icon="/home/maman/.config/obmenu-generator/icons/7dbc88df9b787132a6eb3af699c98bc3.png"><action name="Execute"><command><![CDATA[xfce4-clipman]]></command></action></item>
+    <item label="compton" icon="/home/maman/.config/obmenu-generator/icons/79706a0a3833a8b5a372c19635a63d02.png"><action name="Execute"><command><![CDATA[compton]]></command></action></item>
+    <item label="Disks" icon="/home/maman/.config/obmenu-generator/icons/4ec65406ca75f834c014e9f88b660c50.png"><action name="Execute"><command><![CDATA[gnome-disks]]></command></action></item>
+    <item label="Engrampa Archive Manager" icon="/home/maman/.config/obmenu-generator/icons/33a7c9387d9279cbb896d1926001e70e.png"><action name="Execute"><command><![CDATA[engrampa]]></command></action></item>
+    <item label="File Manager" icon="/home/maman/.config/obmenu-generator/icons/af8d408ceedbd3851e418e6c8c37a0bc.png"><action name="Execute"><command><![CDATA[exo-open --launch FileManager]]></command></action></item>
+    <item label="Files" icon="/home/maman/.config/obmenu-generator/icons/35ea4d505836c0ae28be34a6e86deb4a.png"><action name="Execute"><command><![CDATA[nautilus --new-window]]></command></action></item>
+    <item label="Fonts" icon="/home/maman/.config/obmenu-generator/icons/c18f2974c915af824c377122cedcfcb5.png"><action name="Execute"><command><![CDATA[gnome-font-viewer]]></command></action></item>
+    <item label="Galculator" icon="/home/maman/.config/obmenu-generator/icons/83f70b6c61f2469c32a769c5bb97ef3b.png"><action name="Execute"><command><![CDATA[galculator]]></command></action></item>
+    <item label="gVim" icon="/home/maman/.config/obmenu-generator/icons/6137de0c5f3488048cd5c801ff45fb1f.png"><action name="Execute"><command><![CDATA[gvim -f]]></command></action></item>
+    <item label="Help" icon="/home/maman/.config/obmenu-generator/icons/e903f74c543e7429e781beadc5d6ae88.png"><action name="Execute"><command><![CDATA[yelp]]></command></action></item>
+    <item label="HP Device Manager" icon="/home/maman/.config/obmenu-generator/icons/f6a5ec7293a94a9418258692afa3c1c7.png"><action name="Execute"><command><![CDATA[hp-toolbox]]></command></action></item>
+    <item label="Kvantum Manager" icon="/home/maman/.config/obmenu-generator/icons/63fee9605f2593cee19a9da8d256fa8d.png"><action name="Execute"><command><![CDATA[kvantummanager]]></command></action></item>
+    <item label="LightDM GTK+ Greeter settings" icon="/home/maman/.config/obmenu-generator/icons/b8153ae968f2dce6b0a0d1496428f431.png"><action name="Execute"><command><![CDATA[lightdm-gtk-greeter-settings-pkexec]]></command></action></item>
+    <item label="Manjaro User Guide" icon="/home/maman/.config/obmenu-generator/icons/0381d4ed1facb2221f6626b1f91e5c51.png"><action name="Execute"><command><![CDATA[/usr/bin/manjaro-documentation]]></command></action></item>
+    <item label="Menu Editor" icon="/home/maman/.config/obmenu-generator/icons/7d9e2fb1df9d68b140a6252fba9e2118.png"><action name="Execute"><command><![CDATA[/usr/bin/menulibre]]></command></action></item>
+    <item label="Mousepad" icon="/home/maman/.config/obmenu-generator/icons/966bc929e0181ff804cacd6d7e25770b.png"><action name="Execute"><command><![CDATA[mousepad]]></command></action></item>
+    <item label="nitrogen" icon="/home/maman/.config/obmenu-generator/icons/dc07ea0146d8fe8408ee1b3a35dded2d.png"><action name="Execute"><command><![CDATA[nitrogen]]></command></action></item>
+    <item label="Notes" icon="/home/maman/.config/obmenu-generator/icons/3196305c5ecca7719112b83c955a2fe4.png"><action name="Execute"><command><![CDATA[xfce4-notes]]></command></action></item>
+    <item label="Orage Globaltime" icon="/home/maman/.config/obmenu-generator/icons/5e362a8cea398d742260576a484ffdc7.png"><action name="Execute"><command><![CDATA[globaltime]]></command></action></item>
+    <item label="Plank" icon="/home/maman/.config/obmenu-generator/icons/7d01db6c4a4663ba2720a9e57f894c65.png"><action name="Execute"><command><![CDATA[plank]]></command></action></item>
+    <item label="Run Program..." icon="/home/maman/.config/obmenu-generator/icons/40e856f9bf28b5971c4062d80cb8e2d2.png"><action name="Execute"><command><![CDATA[xfce4-appfinder --collapsed]]></command></action></item>
+    <item label="Screenshot" icon="/home/maman/.config/obmenu-generator/icons/4c91d2c356fc4032d0ccff2278d9469a.png"><action name="Execute"><command><![CDATA[xfce4-screenshooter]]></command></action></item>
+    <item label="Sensor Viewer" icon="/home/maman/.config/obmenu-generator/icons/0beef47b64f5f53f5b199b2c62ef3891.png"><action name="Execute"><command><![CDATA[xfce4-sensors]]></command></action></item>
+    <item label="Task Manager" icon="/home/maman/.config/obmenu-generator/icons/881b28cbb057d59879ba7ead0fddaee3.png"><action name="Execute"><command><![CDATA[xfce4-taskmanager]]></command></action></item>
+    <item label="Terminal Emulator" icon="/home/maman/.config/obmenu-generator/icons/bfd44217aa16fcfc1b41df495b21c181.png"><action name="Execute"><command><![CDATA[exo-open --launch TerminalEmulator]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/maman/.config/obmenu-generator/icons/1d7655bcfc9458df2d60a1fbc5bedbe8.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Tweaks" icon="/home/maman/.config/obmenu-generator/icons/737c50c8547a1bd928b22edf81935984.png"><action name="Execute"><command><![CDATA[gnome-tweaks]]></command></action></item>
+    <item label="Vim" icon="/home/maman/.config/obmenu-generator/icons/6137de0c5f3488048cd5c801ff45fb1f.png"><action name="Execute"><command><![CDATA[xterm -e 'vim']]></command></action></item>
+    <item label="Winetricks" icon="/home/maman/.config/obmenu-generator/icons/5749e816d43b24594e97c2720fe65681.png"><action name="Execute"><command><![CDATA[winetricks --gui]]></command></action></item>
+    <item label="Xfburn" icon="/home/maman/.config/obmenu-generator/icons/acb8b2a3948aef26516872bd714865e9.png"><action name="Execute"><command><![CDATA[xfburn]]></command></action></item>
+    <item label="Xgnokii" icon="/home/maman/.config/obmenu-generator/icons/1968e93aec4905341ac16d541543951a.png"><action name="Execute"><command><![CDATA[xgnokii]]></command></action></item>
+  </menu>
+  <menu id="0.818253686509223" icon="/home/maman/.config/obmenu-generator/icons/61888b868f8f835980ee5538b6dc4cfb.png" label="Development">
+    <item label="CMake" icon="/home/maman/.config/obmenu-generator/icons/5f7e0fe98858a941b59340759b8710e4.png"><action name="Execute"><command><![CDATA[cmake-gui]]></command></action></item>
+    <item label="Geany" icon="/home/maman/.config/obmenu-generator/icons/b1fd05d8e2f8c7ce85d10b567557517a.png"><action name="Execute"><command><![CDATA[geany]]></command></action></item>
+    <item label="Qt4 Assistant" icon="/home/maman/.config/obmenu-generator/icons/c1ceff77a833e38979fdd9b972d9c20a.png"><action name="Execute"><command><![CDATA[assistant-qt4]]></command></action></item>
+    <item label="Qt4 Designer" icon="/home/maman/.config/obmenu-generator/icons/1d6c43ec00e1666680dbd4984dc28583.png"><action name="Execute"><command><![CDATA[designer-qt4]]></command></action></item>
+    <item label="Qt4 Linguist" icon="/home/maman/.config/obmenu-generator/icons/d8e8244c687f1523262accb7e14e3dba.png"><action name="Execute"><command><![CDATA[linguist-qt4]]></command></action></item>
+    <item label="Qt4 QDbusViewer" icon="/home/maman/.config/obmenu-generator/icons/ebc865494342e369e81ce038a1afc427.png"><action name="Execute"><command><![CDATA[qdbusviewer-qt4]]></command></action></item>
+  </menu>
+  <menu id="0.0611007034696165" icon="/home/maman/.config/obmenu-generator/icons/4fcdb3e28e90269b3374bf9a3c6327ae.png" label="Education">
+    <item label="LibreOffice Math" icon="/home/maman/.config/obmenu-generator/icons/155cf7a5b18b0b90550f369680ba3996.png"><action name="Execute"><command><![CDATA[libreoffice --math]]></command></action></item>
+  </menu>
+  <menu id="0.247488344178187" icon="/home/maman/.config/obmenu-generator/icons/23956e2c2516fb0d7738d3d561590d0d.png" label="Games">
+    <item label="KSpaceDuel" icon="/home/maman/.config/obmenu-generator/icons/ddde5993f4986135061a9bee579c809c.png"><action name="Execute"><command><![CDATA[kspaceduel -qwindowtitle]]></command></action></item>
+    <item label="Steam" icon="/home/maman/.config/obmenu-generator/icons/8d2b2c2fd46a49742fed19f16aeff860.png"><action name="Execute"><command><![CDATA[/usr/bin/steam]]></command></action></item>
+  </menu>
+  <menu id="0.0304113290158803" icon="/home/maman/.config/obmenu-generator/icons/d929b687c926180227e0d087d94aa3af.png" label="Graphics">
+    <item label="Blender" icon="/home/maman/.config/obmenu-generator/icons/30e8a067a70998f7c10b9c04e1542d48.png"><action name="Execute"><command><![CDATA[blender]]></command></action></item>
+    <item label="Gcolor2" icon="/home/maman/.config/obmenu-generator/icons/1846ad88e3256098c75664c0e1771d69.png"><action name="Execute"><command><![CDATA[gcolor2]]></command></action></item>
+    <item label="GNU Image Manipulation Program" icon="/home/maman/.config/obmenu-generator/icons/7fdff4c234b63c3f23b6c423bdf1ed90.png"><action name="Execute"><command><![CDATA[gimp-2.10]]></command></action></item>
+    <item label="Inkscape" icon="/home/maman/.config/obmenu-generator/icons/66e9ecae6944d271164a7568c507f862.png"><action name="Execute"><command><![CDATA[inkscape]]></command></action></item>
+    <item label="Krita" icon="/home/maman/.config/obmenu-generator/icons/7646e9851527daab5e3f0fedd92ae439.png"><action name="Execute"><command><![CDATA[krita]]></command></action></item>
+    <item label="LibreOffice Draw" icon="/home/maman/.config/obmenu-generator/icons/2ce7191983e2126b8ab71bb8bfde2b46.png"><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+    <item label="Viewnior" icon="/home/maman/.config/obmenu-generator/icons/d80572fc38e0dd8c46c27d0649ba9325.png"><action name="Execute"><command><![CDATA[viewnior]]></command></action></item>
+  </menu>
+  <menu id="0.12369552905146" icon="/home/maman/.config/obmenu-generator/icons/66e52e4fa208a81dceacbc6d70da7575.png" label="Multimedia">
+    <item label="Audacious" icon="/home/maman/.config/obmenu-generator/icons/ad81a35d14fc0d032ee4a9a24fb7de8e.png"><action name="Execute"><command><![CDATA[audacious]]></command></action></item>
+    <item label="Audacity" icon="/home/maman/.config/obmenu-generator/icons/876785f13d5d2ce3742b940b5528cd54.png"><action name="Execute"><command><![CDATA[env UBUNTU_MENUPROXY=0 audacity]]></command></action></item>
+    <item label="Clementine" icon="/home/maman/.config/obmenu-generator/icons/f8974bac7dbd7342dab6f2f1a5e08874.png"><action name="Execute"><command><![CDATA[clementine]]></command></action></item>
+    <item label="K3b" icon="/home/maman/.config/obmenu-generator/icons/3558ae20545b5f93a81fbcdf22747ace.png"><action name="Execute"><command><![CDATA[k3b]]></command></action></item>
+    <item label="Kdenlive" icon="/home/maman/.config/obmenu-generator/icons/162f27f52a743215fd4276aeb4679d71.png"><action name="Execute"><command><![CDATA[kdenlive]]></command></action></item>
+    <item label="mpv Media Player" icon="/home/maman/.config/obmenu-generator/icons/39475279dc2347a89ec82994ef98494c.png"><action name="Execute"><command><![CDATA[mpv --player-operation-mode=pseudo-gui --]]></command></action></item>
+    <item label="Parole Media Player" icon="/home/maman/.config/obmenu-generator/icons/ad949314f9ce12e7972c75279bf23760.png"><action name="Execute"><command><![CDATA[parole]]></command></action></item>
+    <item label="PulseAudio Volume Control" icon="/home/maman/.config/obmenu-generator/icons/8057a4202c42b2ed98461757a10fc349.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+    <item label="Qt V4L2 test Utility" icon="/home/maman/.config/obmenu-generator/icons/536fa375e9ddf3f93743c18aeecb4e9d.png"><action name="Execute"><command><![CDATA[qv4l2]]></command></action></item>
+    <item label="Qt V4L2 video capture utility" icon="/home/maman/.config/obmenu-generator/icons/536fa375e9ddf3f93743c18aeecb4e9d.png"><action name="Execute"><command><![CDATA[qvidcap]]></command></action></item>
+    <item label="SimpleScreenRecorder" icon="/home/maman/.config/obmenu-generator/icons/e13779cc82490393a5f053b132fa2bec.png"><action name="Execute"><command><![CDATA[simplescreenrecorder --logfile]]></command></action></item>
+    <item label="VLC media player" icon="/home/maman/.config/obmenu-generator/icons/72cc6eaa2674629deccb711b78078f7c.png"><action name="Execute"><command><![CDATA[/usr/bin/vlc --started-from-file]]></command></action></item>
+    <item label="vokoscreen" icon="/home/maman/.config/obmenu-generator/icons/6688c7ed1668c3bda8dd9a922c338452.png"><action name="Execute"><command><![CDATA[vokoscreen]]></command></action></item>
+    <item label="Xfburn" icon="/home/maman/.config/obmenu-generator/icons/acb8b2a3948aef26516872bd714865e9.png"><action name="Execute"><command><![CDATA[xfburn]]></command></action></item>
+  </menu>
+  <menu id="0.995048184317366" icon="/home/maman/.config/obmenu-generator/icons/018c3f99d06cf14562a8fcedb4bfc348.png" label="Network">
+    <item label="Avahi SSH Server Browser" icon="/home/maman/.config/obmenu-generator/icons/e783d45bdfba4a4e169cc5f6c37bf94a.png"><action name="Execute"><command><![CDATA[/usr/bin/bssh]]></command></action></item>
+    <item label="Avahi VNC Server Browser" icon="/home/maman/.config/obmenu-generator/icons/e783d45bdfba4a4e169cc5f6c37bf94a.png"><action name="Execute"><command><![CDATA[/usr/bin/bvnc]]></command></action></item>
+    <item label="Chromium" icon="/home/maman/.config/obmenu-generator/icons/ea9ec32bbce603437b9b6dc5688ecaa1.png"><action name="Execute"><command><![CDATA[/usr/bin/chromium]]></command></action></item>
+    <item label="EtherApe" icon="/home/maman/.config/obmenu-generator/icons/2cedbd388823e53933e59897891dbc74.png"><action name="Execute"><command><![CDATA[etherape]]></command></action></item>
+    <item label="Ettercap" icon="/home/maman/.config/obmenu-generator/icons/777e85a01a41e17adbccea3de9842351.png"><action name="Execute"><command><![CDATA[ettercap-pkexec -G]]></command></action></item>
+    <item label="FileZilla" icon="/home/maman/.config/obmenu-generator/icons/e249c372fdcbc7339aa5096b9c5d1ebd.png"><action name="Execute"><command><![CDATA[filezilla]]></command></action></item>
+    <item label="Firefox" icon="/home/maman/.config/obmenu-generator/icons/3b21c1c7fa77cf258ff1c5e1a76d6c52.png"><action name="Execute"><command><![CDATA[/usr/lib/firefox/firefox]]></command></action></item>
+    <item label="HexChat" icon="/home/maman/.config/obmenu-generator/icons/228699129d58161fdbe536e56c3503d6.png"><action name="Execute"><command><![CDATA[hexchat --existing]]></command></action></item>
+    <item label="Mail Reader" icon="/home/maman/.config/obmenu-generator/icons/824392029ded91e5e7cd9ab55064e49c.png"><action name="Execute"><command><![CDATA[exo-open --launch MailReader]]></command></action></item>
+    <item label="Microsoft Skype Online" icon="/home/maman/.config/obmenu-generator/icons/12b8b9df25f79eaa8b2ed9c52ace99a6.png"><action name="Execute"><command><![CDATA[ms-skype]]></command></action></item>
+    <item label="networkmanager__dmenu" icon=""><action name="Execute"><command><![CDATA[networkmanager_dmenu]]></command></action></item>
+    <item label="nmcli__dmenu" icon=""><action name="Execute"><command><![CDATA[nmcli_dmenu]]></command></action></item>
+    <item label="Pidgin Internet Messenger" icon="/home/maman/.config/obmenu-generator/icons/657c62a4de2e392399f7bde0b2dc97b3.png"><action name="Execute"><command><![CDATA[pidgin]]></command></action></item>
+    <item label="Steam" icon="/home/maman/.config/obmenu-generator/icons/8d2b2c2fd46a49742fed19f16aeff860.png"><action name="Execute"><command><![CDATA[/usr/bin/steam]]></command></action></item>
+    <item label="Telegram Desktop" icon="/home/maman/.config/obmenu-generator/icons/860cd6a950030cc89336b95772b68b9c.png"><action name="Execute"><command><![CDATA[telegram-desktop --]]></command></action></item>
+    <item label="Thunderbird" icon="/home/maman/.config/obmenu-generator/icons/5c3bfffc5b26c0a251155b2cb81370ea.png"><action name="Execute"><command><![CDATA[/usr/lib/thunderbird/thunderbird]]></command></action></item>
+    <item label="Tor Browser (en-US)" icon="/home/maman/.config/obmenu-generator/icons/846f8d2fc0deaabde840ec14542bbe5f.png"><action name="Execute"><command><![CDATA[/usr/bin/tor-browser-en]]></command></action></item>
+    <item label="Transmission" icon="/home/maman/.config/obmenu-generator/icons/d49570b798c609a55ae607d88bf65300.png"><action name="Execute"><command><![CDATA[transmission-gtk]]></command></action></item>
+    <item label="Web Browser" icon="/home/maman/.config/obmenu-generator/icons/66492fc1f65db39c94569bed9aa10880.png"><action name="Execute"><command><![CDATA[exo-open --launch WebBrowser]]></command></action></item>
+    <item label="Wireshark (GTK+)" icon="/home/maman/.config/obmenu-generator/icons/d1bf0c4a530b22508f7c817ea42b4099.png"><action name="Execute"><command><![CDATA[wireshark-gtk]]></command></action></item>
+    <item label="Wireshark" icon="/home/maman/.config/obmenu-generator/icons/d1bf0c4a530b22508f7c817ea42b4099.png"><action name="Execute"><command><![CDATA[wireshark]]></command></action></item>
+    <item label="Zenmap (as root)" icon="/home/maman/.config/obmenu-generator/icons/a858a055e68ae09938be653c3eb99314.png"><action name="Execute"><command><![CDATA[/usr/share/zenmap/su-to-zenmap.sh]]></command></action></item>
+    <item label="Zenmap" icon="/home/maman/.config/obmenu-generator/icons/a858a055e68ae09938be653c3eb99314.png"><action name="Execute"><command><![CDATA[zenmap]]></command></action></item>
+  </menu>
+  <menu id="0.347677946830196" icon="/home/maman/.config/obmenu-generator/icons/0a96910a5493fc2edb6d7f2b7981347f.png" label="Office">
+    <item label="Dictionary" icon="/home/maman/.config/obmenu-generator/icons/060ce72fb0093ea6220fae29233231a9.png"><action name="Execute"><command><![CDATA[xfce4-dict]]></command></action></item>
+    <item label="LibreOffice Base" icon="/home/maman/.config/obmenu-generator/icons/f3abaed37bec5d927ec66c20f1451116.png"><action name="Execute"><command><![CDATA[libreoffice --base]]></command></action></item>
+    <item label="LibreOffice Calc" icon="/home/maman/.config/obmenu-generator/icons/c3071e7f0fff99c6e370fa2ad7709880.png"><action name="Execute"><command><![CDATA[libreoffice --calc]]></command></action></item>
+    <item label="LibreOffice Draw" icon="/home/maman/.config/obmenu-generator/icons/2ce7191983e2126b8ab71bb8bfde2b46.png"><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+    <item label="LibreOffice Impress" icon="/home/maman/.config/obmenu-generator/icons/45482636ae6765349b55ea6989a99c54.png"><action name="Execute"><command><![CDATA[libreoffice --impress]]></command></action></item>
+    <item label="LibreOffice Math" icon="/home/maman/.config/obmenu-generator/icons/155cf7a5b18b0b90550f369680ba3996.png"><action name="Execute"><command><![CDATA[libreoffice --math]]></command></action></item>
+    <item label="LibreOffice Writer" icon="/home/maman/.config/obmenu-generator/icons/f829e0e0801b5d6b42734a2857d8df67.png"><action name="Execute"><command><![CDATA[libreoffice --writer]]></command></action></item>
+    <item label="LibreOffice" icon="/home/maman/.config/obmenu-generator/icons/428a80a1ba23051e53806d70f44bcc75.png"><action name="Execute"><command><![CDATA[libreoffice]]></command></action></item>
+    <item label="Microsoft Excel Online" icon="/home/maman/.config/obmenu-generator/icons/9071cba576f1274500eeb326445869a5.png"><action name="Execute"><command><![CDATA[ms-excel]]></command></action></item>
+    <item label="Microsoft Office Online" icon="/home/maman/.config/obmenu-generator/icons/b3566d7776cfdd07c31815dac0b648cb.png"><action name="Execute"><command><![CDATA[ms-office]]></command></action></item>
+    <item label="Microsoft Onenote Online" icon="/home/maman/.config/obmenu-generator/icons/f349839f7093a7e76e061977249f4036.png"><action name="Execute"><command><![CDATA[ms-onenote]]></command></action></item>
+    <item label="Microsoft Outlook Online" icon="/home/maman/.config/obmenu-generator/icons/1640cb109c486651ff190e15c97692a5.png"><action name="Execute"><command><![CDATA[ms-outlook]]></command></action></item>
+    <item label="Microsoft Powerpoint Online" icon="/home/maman/.config/obmenu-generator/icons/4d55a969a2f3cc719857f633ce6e8a23.png"><action name="Execute"><command><![CDATA[ms-powerpoint]]></command></action></item>
+    <item label="Microsoft Word Online" icon="/home/maman/.config/obmenu-generator/icons/8fc84ffca4f367f64e89ff16d3252907.png"><action name="Execute"><command><![CDATA[ms-word]]></command></action></item>
+    <item label="Orage Calendar" icon="/home/maman/.config/obmenu-generator/icons/5e0bacdba6f84c2a2b3dce94c8896186.png"><action name="Execute"><command><![CDATA[orage]]></command></action></item>
+    <item label="Orage Globaltime" icon="/home/maman/.config/obmenu-generator/icons/5e362a8cea398d742260576a484ffdc7.png"><action name="Execute"><command><![CDATA[globaltime]]></command></action></item>
+    <item label="qpdfview" icon="/home/maman/.config/obmenu-generator/icons/afae23c31783d199ec2b0f30e3664e9b.png"><action name="Execute"><command><![CDATA[qpdfview --unique]]></command></action></item>
+    <item label="Xgnokii" icon="/home/maman/.config/obmenu-generator/icons/1968e93aec4905341ac16d541543951a.png"><action name="Execute"><command><![CDATA[xgnokii]]></command></action></item>
+  </menu>
+  <menu id="0.383216627864758" icon="/home/maman/.config/obmenu-generator/icons/0940b50b2d8862447ffa14f557a19caa.png" label="Other">
+    <item label="hp-uiscan" icon="/home/maman/.config/obmenu-generator/icons/4e7023638e3ee889e2fbb66310fb9d97.png"><action name="Execute"><command><![CDATA[/usr/bin/hp-uiscan]]></command></action></item>
+    <item label="ZoneMinder" icon="/home/maman/.config/obmenu-generator/icons/b9e51c0cbfcd670f68fdb080a8931457.png"><action name="Execute"><command><![CDATA[]]></command></action></item>
+  </menu>
+  <menu id="0.0066281254992191" icon="/home/maman/.config/obmenu-generator/icons/22287fed02145a38d5aaa4273cc634b7.png" label="Settings">
+    <item label="About Me" icon="/home/maman/.config/obmenu-generator/icons/f9d114439b643042ab0c187009d9ed85.png"><action name="Execute"><command><![CDATA[/usr/bin/mugshot]]></command></action></item>
+    <item label="Accessibility" icon="/home/maman/.config/obmenu-generator/icons/50acfe3c6e322946d960989d64a10728.png"><action name="Execute"><command><![CDATA[xfce4-accessibility-settings]]></command></action></item>
+    <item label="Add/Remove Software" icon="/home/maman/.config/obmenu-generator/icons/d38d812ed78a51b316c2778130975ab1.png"><action name="Execute"><command><![CDATA[pamac-manager]]></command></action></item>
+    <item label="Appearance" icon="/home/maman/.config/obmenu-generator/icons/1482fbe3a02d902ffbd1639683fa7450.png"><action name="Execute"><command><![CDATA[xfce4-appearance-settings]]></command></action></item>
+    <item label="Bluetooth Adapters" icon="/home/maman/.config/obmenu-generator/icons/b96d51d56432a3c3f63b19b4a889cbad.png"><action name="Execute"><command><![CDATA[blueman-adapters]]></command></action></item>
+    <item label="Bluetooth Manager" icon="/home/maman/.config/obmenu-generator/icons/4c927516b8d39fa93c811ab948c44c7f.png"><action name="Execute"><command><![CDATA[blueman-manager]]></command></action></item>
+    <item label="Customize Look and Feel" icon="/home/maman/.config/obmenu-generator/icons/1482fbe3a02d902ffbd1639683fa7450.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="Desktop" icon="/home/maman/.config/obmenu-generator/icons/098cc05d51391853e3c123da47a7c66b.png"><action name="Execute"><command><![CDATA[xfdesktop-settings]]></command></action></item>
+    <item label="Display" icon="/home/maman/.config/obmenu-generator/icons/32c1584a9b94c941023bb5016c8991dc.png"><action name="Execute"><command><![CDATA[xfce4-display-settings]]></command></action></item>
+    <item label="File Manager" icon="/home/maman/.config/obmenu-generator/icons/af8d408ceedbd3851e418e6c8c37a0bc.png"><action name="Execute"><command><![CDATA[thunar-settings]]></command></action></item>
+    <item label="Firewall Configuration" icon="/home/maman/.config/obmenu-generator/icons/beb439e0f4a5f2ec2e2f1fa561afac75.png"><action name="Execute"><command><![CDATA[gufw]]></command></action></item>
+    <item label="Keyboard and Mouse" icon="/home/maman/.config/obmenu-generator/icons/0257be42e07bce64e9b112a68cbf91dc.png"><action name="Execute"><command><![CDATA[lxinput]]></command></action></item>
+    <item label="Keyboard" icon="/home/maman/.config/obmenu-generator/icons/0257be42e07bce64e9b112a68cbf91dc.png"><action name="Execute"><command><![CDATA[xfce4-keyboard-settings]]></command></action></item>
+    <item label="Kvantum Manager" icon="/home/maman/.config/obmenu-generator/icons/63fee9605f2593cee19a9da8d256fa8d.png"><action name="Execute"><command><![CDATA[kvantummanager]]></command></action></item>
+    <item label="LightDM GTK+ Greeter settings" icon="/home/maman/.config/obmenu-generator/icons/b8153ae968f2dce6b0a0d1496428f431.png"><action name="Execute"><command><![CDATA[lightdm-gtk-greeter-settings-pkexec]]></command></action></item>
+    <item label="Manjaro Notifier Settings" icon="/home/maman/.config/obmenu-generator/icons/e9d5849706eec263fc4b5dbc88bbaba9.png"><action name="Execute"><command><![CDATA[msm_notifier --settings]]></command></action></item>
+    <item label="Manjaro Settings Manager" icon="/home/maman/.config/obmenu-generator/icons/e9d5849706eec263fc4b5dbc88bbaba9.png"><action name="Execute"><command><![CDATA[manjaro-settings-manager]]></command></action></item>
+    <item label="Menu Editor" icon="/home/maman/.config/obmenu-generator/icons/7d9e2fb1df9d68b140a6252fba9e2118.png"><action name="Execute"><command><![CDATA[/usr/bin/menulibre]]></command></action></item>
+    <item label="MIME Type Editor" icon="/home/maman/.config/obmenu-generator/icons/2b92903f7b3f0d8927f5bdc6eac1081e.png"><action name="Execute"><command><![CDATA[xfce4-mime-settings]]></command></action></item>
+    <item label="Monitor Settings" icon="/home/maman/.config/obmenu-generator/icons/32c1584a9b94c941023bb5016c8991dc.png"><action name="Execute"><command><![CDATA[lxrandr]]></command></action></item>
+    <item label="Mouse and Touchpad" icon="/home/maman/.config/obmenu-generator/icons/bcaac0eff926bf7fb3323c3afff2f9b3.png"><action name="Execute"><command><![CDATA[xfce4-mouse-settings]]></command></action></item>
+    <item label="Network Connections" icon="/home/maman/.config/obmenu-generator/icons/7b9ab02ed43fb5caa5278ea74dbbd194.png"><action name="Execute"><command><![CDATA[nm-connection-editor]]></command></action></item>
+    <item label="networkmanager__dmenu" icon=""><action name="Execute"><command><![CDATA[networkmanager_dmenu]]></command></action></item>
+    <item label="nmcli__dmenu" icon=""><action name="Execute"><command><![CDATA[nmcli_dmenu]]></command></action></item>
+    <item label="Notifications" icon="/home/maman/.config/obmenu-generator/icons/15aef5679c96641a629435db83f884f7.png"><action name="Execute"><command><![CDATA[xfce4-notifyd-config]]></command></action></item>
+    <item label="Openbox Configuration Manager" icon="/home/maman/.config/obmenu-generator/icons/61f3de6fd06f9847e869878302ba1980.png"><action name="Execute"><command><![CDATA[obconf]]></command></action></item>
+    <item label="Orage preferences" icon="/home/maman/.config/obmenu-generator/icons/5e0bacdba6f84c2a2b3dce94c8896186.png"><action name="Execute"><command><![CDATA[orage -p]]></command></action></item>
+    <item label="Panel" icon="/home/maman/.config/obmenu-generator/icons/25291aec0f84432a7b0f9ffe909f1abb.png"><action name="Execute"><command><![CDATA[xfce4-panel --preferences]]></command></action></item>
+    <item label="Power Manager" icon="/home/maman/.config/obmenu-generator/icons/1857bb27be3a897eed96186580c63120.png"><action name="Execute"><command><![CDATA[xfce4-power-manager-settings]]></command></action></item>
+    <item label="Preferred Applications" icon="/home/maman/.config/obmenu-generator/icons/993d034d387f858224c88bc27f2046dc.png"><action name="Execute"><command><![CDATA[exo-preferred-applications]]></command></action></item>
+    <item label="Print Settings" icon="/home/maman/.config/obmenu-generator/icons/4e7023638e3ee889e2fbb66310fb9d97.png"><action name="Execute"><command><![CDATA[system-config-printer]]></command></action></item>
+    <item label="Qt5 Settings" icon="/home/maman/.config/obmenu-generator/icons/1482fbe3a02d902ffbd1639683fa7450.png"><action name="Execute"><command><![CDATA[qt5ct]]></command></action></item>
+    <item label="Removable Drives and Media" icon="/home/maman/.config/obmenu-generator/icons/12e822013e5684ac87605ccf52d31438.png"><action name="Execute"><command><![CDATA[thunar-volman-settings]]></command></action></item>
+    <item label="Screensaver" icon="/home/maman/.config/obmenu-generator/icons/c707ba6f70374ef4cbd7598f32264c1f.png"><action name="Execute"><command><![CDATA[xscreensaver-demo]]></command></action></item>
+    <item label="Session and Startup" icon="/home/maman/.config/obmenu-generator/icons/7e320528be0fca256cb45178c39cc98f.png"><action name="Execute"><command><![CDATA[xfce4-session-settings]]></command></action></item>
+    <item label="Settings Editor" icon="/home/maman/.config/obmenu-generator/icons/e1692f5aa2f30d063b8a29c15118a59d.png"><action name="Execute"><command><![CDATA[xfce4-settings-editor]]></command></action></item>
+    <item label="Settings Manager" icon="/home/maman/.config/obmenu-generator/icons/e9d5849706eec263fc4b5dbc88bbaba9.png"><action name="Execute"><command><![CDATA[xfce4-settings-manager]]></command></action></item>
+    <item label="Software Update" icon="/home/maman/.config/obmenu-generator/icons/954b728aa057704f0680c2133861a75d.png"><action name="Execute"><command><![CDATA[pamac-manager --updates]]></command></action></item>
+    <item label="Tint2 Settings" icon="/home/maman/.config/obmenu-generator/icons/e25fa831dcfce3d855f67af87e68537f.png"><action name="Execute"><command><![CDATA[tint2conf]]></command></action></item>
+    <item label="Window Manager Tweaks" icon="/home/maman/.config/obmenu-generator/icons/7dfd9fd2658978dbd3ec42787e33abeb.png"><action name="Execute"><command><![CDATA[xfwm4-tweaks-settings]]></command></action></item>
+    <item label="Window Manager" icon="/home/maman/.config/obmenu-generator/icons/d9610003e5f9a45c2e43514d310781b2.png"><action name="Execute"><command><![CDATA[xfwm4-settings]]></command></action></item>
+    <item label="Workspaces" icon="/home/maman/.config/obmenu-generator/icons/5fe486197fb6c6b71a229ac2e3158efd.png"><action name="Execute"><command><![CDATA[xfwm4-workspace-settings]]></command></action></item>
+    <item label="Xfce Terminal" icon="/home/maman/.config/obmenu-generator/icons/bfd44217aa16fcfc1b41df495b21c181.png"><action name="Execute"><command><![CDATA[xfce4-terminal --preferences]]></command></action></item>
+  </menu>
+  <menu id="0.612627144453466" icon="/home/maman/.config/obmenu-generator/icons/e1692f5aa2f30d063b8a29c15118a59d.png" label="System">
+    <item label="Add/Remove Software" icon="/home/maman/.config/obmenu-generator/icons/d38d812ed78a51b316c2778130975ab1.png"><action name="Execute"><command><![CDATA[pamac-manager]]></command></action></item>
+    <item label="Avahi Zeroconf Browser" icon="/home/maman/.config/obmenu-generator/icons/e783d45bdfba4a4e169cc5f6c37bf94a.png"><action name="Execute"><command><![CDATA[/usr/bin/avahi-discover]]></command></action></item>
+    <item label="BleachBit" icon="/home/maman/.config/obmenu-generator/icons/31571e42eb7d683ffecc1bda92fe7ebd.png"><action name="Execute"><command><![CDATA[bleachbit]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/maman/.config/obmenu-generator/icons/1d7655bcfc9458df2d60a1fbc5bedbe8.png"><action name="Execute"><command><![CDATA[/usr/lib/Thunar/ThunarBulkRename]]></command></action></item>
+    <item label="EtherApe" icon="/home/maman/.config/obmenu-generator/icons/2cedbd388823e53933e59897891dbc74.png"><action name="Execute"><command><![CDATA[etherape]]></command></action></item>
+    <item label="GParted" icon="/home/maman/.config/obmenu-generator/icons/a5168c1ff60747c8e186e4d7e18619a4.png"><action name="Execute"><command><![CDATA[/usr/bin/gparted]]></command></action></item>
+    <item label="Htop" icon="/home/maman/.config/obmenu-generator/icons/881b28cbb057d59879ba7ead0fddaee3.png"><action name="Execute"><command><![CDATA[xterm -e 'htop']]></command></action></item>
+    <item label="K3b" icon="/home/maman/.config/obmenu-generator/icons/3558ae20545b5f93a81fbcdf22747ace.png"><action name="Execute"><command><![CDATA[k3b]]></command></action></item>
+    <item label="LightDM GTK+ Greeter settings" icon="/home/maman/.config/obmenu-generator/icons/b8153ae968f2dce6b0a0d1496428f431.png"><action name="Execute"><command><![CDATA[lightdm-gtk-greeter-settings-pkexec]]></command></action></item>
+    <item label="Log Out" icon="/home/maman/.config/obmenu-generator/icons/0b9144283fac9a4189e6d2558a0ecd65.png"><action name="Execute"><command><![CDATA[xfce4-session-logout]]></command></action></item>
+    <item label="LSHW" icon="/home/maman/.config/obmenu-generator/icons/06d0221647c695cabec14a5cac3f28ff.png"><action name="Execute"><command><![CDATA[/usr/sbin/gtk-lshw]]></command></action></item>
+    <item label="Manage Printing" icon="/home/maman/.config/obmenu-generator/icons/4e7023638e3ee889e2fbb66310fb9d97.png"><action name="Execute"><command><![CDATA[/usr/bin/xdg-open http://localhost:631/]]></command></action></item>
+    <item label="Manjaro Hello" icon="/home/maman/.config/obmenu-generator/icons/3ec45520ae2a45c4476e42e35f4482a5.png"><action name="Execute"><command><![CDATA[/usr/bin/manjaro-hello]]></command></action></item>
+    <item label="Oracle VM VirtualBox" icon="/home/maman/.config/obmenu-generator/icons/33898ebdfd73db17ab2420744a4ed085.png"><action name="Execute"><command><![CDATA[VirtualBox]]></command></action></item>
+    <item label="Print Settings" icon="/home/maman/.config/obmenu-generator/icons/4e7023638e3ee889e2fbb66310fb9d97.png"><action name="Execute"><command><![CDATA[system-config-printer]]></command></action></item>
+    <item label="Sensor Viewer" icon="/home/maman/.config/obmenu-generator/icons/0beef47b64f5f53f5b199b2c62ef3891.png"><action name="Execute"><command><![CDATA[xfce4-sensors]]></command></action></item>
+    <item label="Software Update" icon="/home/maman/.config/obmenu-generator/icons/954b728aa057704f0680c2133861a75d.png"><action name="Execute"><command><![CDATA[pamac-manager --updates]]></command></action></item>
+    <item label="Task Manager" icon="/home/maman/.config/obmenu-generator/icons/881b28cbb057d59879ba7ead0fddaee3.png"><action name="Execute"><command><![CDATA[xfce4-taskmanager]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/maman/.config/obmenu-generator/icons/1d7655bcfc9458df2d60a1fbc5bedbe8.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Tint2" icon="/home/maman/.config/obmenu-generator/icons/83b0b3f21b72873742a7fc29d35bb049.png"><action name="Execute"><command><![CDATA[tint2]]></command></action></item>
+    <item label="urxvt (client)" icon="/home/maman/.config/obmenu-generator/icons/bfd44217aa16fcfc1b41df495b21c181.png"><action name="Execute"><command><![CDATA[urxvtc]]></command></action></item>
+    <item label="urxvt (tabbed)" icon="/home/maman/.config/obmenu-generator/icons/bfd44217aa16fcfc1b41df495b21c181.png"><action name="Execute"><command><![CDATA[urxvt-tabbed]]></command></action></item>
+    <item label="urxvt" icon="/home/maman/.config/obmenu-generator/icons/bfd44217aa16fcfc1b41df495b21c181.png"><action name="Execute"><command><![CDATA[urxvt]]></command></action></item>
+    <item label="UXTerm" icon="/home/maman/.config/obmenu-generator/icons/ea530419b119883d5e3ac95b5686463e.png"><action name="Execute"><command><![CDATA[uxterm]]></command></action></item>
+    <item label="Xfce Terminal" icon="/home/maman/.config/obmenu-generator/icons/bfd44217aa16fcfc1b41df495b21c181.png"><action name="Execute"><command><![CDATA[xfce4-terminal]]></command></action></item>
+    <item label="XTerm" icon="/home/maman/.config/obmenu-generator/icons/ea530419b119883d5e3ac95b5686463e.png"><action name="Execute"><command><![CDATA[xterm]]></command></action></item>
+  </menu>
+  <separator/>
+  <menu id="0.3402218515889" icon="/home/maman/.config/obmenu-generator/icons/1d04abde9d640cde340f7ede0fb1f823.png" label="Advanced Settings">
+    <item label="Conky RC" icon="/home/maman/.config/obmenu-generator/icons/18d71eb24acd255c5e30b6eb4597deff.png"><action name="Execute"><command><![CDATA[geany ~/.conkyrc]]></command></action></item>
+    <item label="Tint2 Panel" icon="/home/maman/.config/obmenu-generator/icons/18d71eb24acd255c5e30b6eb4597deff.png"><action name="Execute"><command><![CDATA[geany ~/.config/tint2/tint2rc]]></command></action></item>
+  <menu id="0.277957179846442" icon="/home/maman/.config/obmenu-generator/icons/966bc929e0181ff804cacd6d7e25770b.png" label="Obmenu-Generator">
+    <item label="Menu Schema" icon="/home/maman/.config/obmenu-generator/icons/18d71eb24acd255c5e30b6eb4597deff.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/schema.pl]]></command></action></item>
+    <item label="Menu Config" icon="/home/maman/.config/obmenu-generator/icons/18d71eb24acd255c5e30b6eb4597deff.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/config.pl]]></command></action></item>
+  <separator/>
+    <item label="Generate a static menu" icon="/home/maman/.config/obmenu-generator/icons/966bc929e0181ff804cacd6d7e25770b.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -c]]></command></action></item>
+    <item label="Generate a static menu with icons" icon="/home/maman/.config/obmenu-generator/icons/966bc929e0181ff804cacd6d7e25770b.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -i -c]]></command></action></item>
+  <separator/>
+    <item label="Generate a dynamic menu" icon="/home/maman/.config/obmenu-generator/icons/966bc929e0181ff804cacd6d7e25770b.png"><action name="Execute"><command><![CDATA[obmenu-generator -p]]></command></action></item>
+    <item label="Generate a dynamic menu with icons" icon="/home/maman/.config/obmenu-generator/icons/966bc929e0181ff804cacd6d7e25770b.png"><action name="Execute"><command><![CDATA[obmenu-generator -p -i]]></command></action></item>
+  <separator/>
+    <item label="Refresh cache" icon="/home/maman/.config/obmenu-generator/icons/4cb66f99e46a61e780eb31d76cc87cd7.png"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
+  </menu>
+  <menu id="0.868334304157329" icon="/home/maman/.config/obmenu-generator/icons/cbd33e85d4e0834359519a4e282b2aeb.png" label="Openbox">
+    <item label="Openbox Autostart" icon="/home/maman/.config/obmenu-generator/icons/18d71eb24acd255c5e30b6eb4597deff.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/autostart]]></command></action></item>
+    <item label="Openbox RC" icon="/home/maman/.config/obmenu-generator/icons/18d71eb24acd255c5e30b6eb4597deff.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/rc.xml]]></command></action></item>
+    <item label="Openbox Menu" icon="/home/maman/.config/obmenu-generator/icons/18d71eb24acd255c5e30b6eb4597deff.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/menu.xml]]></command></action></item>
+    <item label="Reconfigure Openbox" icon="/home/maman/.config/obmenu-generator/icons/cbd33e85d4e0834359519a4e282b2aeb.png"><action name="Execute"><command><![CDATA[openbox --reconfigure]]></command></action></item>
+  </menu>
+  </menu>
+  <separator/>
+    <item label="Lock" icon="/home/maman/.config/obmenu-generator/icons/5b6d454a386e8c2d50cee321e52c2141.png"><action name="Execute"><command><![CDATA[xscreensaver-command -lock]]></command></action></item>
+    <item label="Exit" icon="/home/maman/.config/obmenu-generator/icons/97f63efcb3abe98fab75afa205a91c3b.png"><action name="Execute"><command><![CDATA[oblogout]]></command></action></item>
+  </menu>
+</openbox_menu>

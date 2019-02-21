@@ -1,0 +1,8 @@
+#!/bin/bash
+# useless script to set theme
+
+# argument : image path
+
+wal -i "$1"
+obtgen --wal # https://git.io/obtgen
+ez # https://github.com/fikriomar16/dotfiles/blob/master/lemonbar/ez

@@ -1,0 +1,30 @@
+#!/bin/sh
+PORT=6601
+MPC="mpc -p $PORT"
+CUR=$($MPC current)
+ITEM="$CUR\nPlay\nPause\nStop\nStop\nNext\nPrev\nJump Song"
+DMENU="dmenu -p '' -x 160 -y 30 -i -fn 'TakaoPGothic:size=9' -nb '#e7e8eb' -nf '#2f343f' -sb '#5294E2' -sf '#e7e8eb' -o 0.8 -h 27 -l 10 -w 200 "
+SHOW=$(echo $ITEM | eval $DMENU)
+case $SHOW in
+	$CUR )
+		mpd-popup
+		;;
+	Play )
+		$MPC play
+		;;
+	Pause )
+		$MPC pause
+		;;
+	Stop )
+		$MPC stop
+		;;
+	Next )
+		$MPC next
+		;;
+	Prev )
+		$MPC prev
+		;;
+	"Jump Song" )
+		jump-song
+		;;
+esac
